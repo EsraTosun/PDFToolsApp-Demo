@@ -1,87 +1,68 @@
-# PDFToolsApp 📄⚙️  
-**PDF Dosyaları İçin Kapsamlı Düzenleme ve Dönüştürme Uygulaması**
+# 📄 PDFToolsApp (Enterprise Edition)
+**Secure In-House PDF Manipulation & Conversion Suite**
 
-PDFToolsApp, PDF dosyaları üzerinde **sayfa düzenleme, bölme, birleştirme, sıkıştırma ve farklı formatlara dönüştürme** işlemlerini tek bir uygulama altında sunan, .NET tabanlı bir projedir.  
-Uygulama, kullanıcıların PDF dosyalarını kolayca yönetebilmesi ve farklı ihtiyaçlara göre dönüştürebilmesi amacıyla geliştirilmiştir.
-
----
-
-## 🎯 Projenin Amacı
-
-- PDF dosyalarını parçalara ayırmak veya birleştirmek  
-- Gereksiz PDF sayfalarını silmek  
-- PDF sayfaları üzerinde döndürme ve sıkıştırma işlemleri yapmak  
-- PDF dosyalarını Word, Excel, Image gibi formatlara dönüştürmek  
-- Farklı dosya türlerinden (Word, Excel, PowerPoint, Image) PDF oluşturmak  
+Developed as a professional solution for **MEDAŞ (Meram Electricity Distribution Inc.)**, PDFToolsApp is a high-performance .NET application designed to centralize and secure sensitive document workflows. It eliminates dependency on external third-party services by providing an on-premise infrastructure for **editing, splitting, merging, and cross-format conversion.**
 
 ---
 
-## ⚙️ Uygulama Özellikleri
+## 🎯 Project Objectives & Business Impact
 
-### 🔹 PDF Sayfa İşlemleri
-- PDF sayfalarını silme  
-- PDF dosyasını birden fazla PDF’e ayırma (**Split**)  
-- Birden fazla PDF dosyasını tek PDF’te birleştirme (**Merge**)  
-- PDF sayfalarını döndürme (**Rotate**)  
-- PDF dosyalarını sıkıştırma (**Compress**)  
-
-### 🔹 PDF İçerik İşleme
-- PDF içeriğinden veri çıkarma (**Extract**)  
-- PDF’ten Word, Excel ve Image formatlarına dönüştürme  
+- **Data Sovereignty:** Engineered to handle sensitive corporate documents within the local network, ensuring 100% data privacy and compliance.
+- **Workflow Optimization:** Streamlined the process of splitting/merging large utility documents and reports.
+- **Format Standardization:** Developed a unified engine to convert heterogeneous file types (Word, Excel, PPT) into standardized PDF archives.
+- **Cost Reduction:** Eliminated the need for expensive third-party software licenses for document manipulation.
 
 ---
 
-## 🔄 Dönüştürme İşlemleri
+## ⚙️ Core Enterprise Features
 
-### PDF’ten Dışa Aktarma
-- **ExportToWord.cshtml** → PDF → Word  
-- **ExportToExcel.cshtml** → PDF → Excel  
-- **ExportToImage.cshtml** → PDF → Image  
+### 🔹 Advanced Document Orchestration
+- **Split & Merge:** Efficiently manage large-scale documents (e.g., technical reports, billing archives).
+- **Rotate & Organize:** Automated page alignment and organization tools for scanned documents.
+- **Lossless Compression:** Advanced algorithms to reduce file size while maintaining legibility for archival purposes.
 
-### PDF Oluşturma (Convert From)
-- **ConvertFromWord.cshtml** → Word → PDF  
-- **ConvertFromExcel.cshtml** → Excel → PDF  
-- **ConvertFromPowerpoint.cshtml** → PowerPoint → PDF  
-- **ConvertFromImage.cshtml** → Image → PDF  
+### 🔹 High-Fidelity Conversion Engine
+- **To PDF Transformation:** Seamless conversion from Word, Excel, PowerPoint, and high-resolution Images.
+- **Exporting Data:** Extracting structured data from PDF structures to Word and Excel for analytical use.
 
 ---
 
-## 🧩 Diğer Modüller
-- **Split.cshtml** → PDF dosyasını sayfalara ayırma  
-- **Merge.cshtml** → PDF dosyalarını birleştirme  
-- **Rotate.cshtml** → PDF sayfalarını döndürme  
-- **Compress.cshtml** → PDF dosya boyutunu küçültme  
-- **Extract.cshtml** → PDF içeriğini dışa aktarma  
+## 🔄 Transformation Modules (Enterprise Level)
+
+| Module | Source Format | Target Format | Use Case |
+| :--- | :--- | :--- | :--- |
+| **Corporate Word Engine** | .docx | PDF | Contract & Legal Docs |
+| **Data & Report Engine** | .xlsx | PDF | Monthly Financial Reports |
+| **Visual Archive Engine** | Image (JPG/PNG) | PDF | Field Site Documentation |
+| **Extraction Engine** | PDF | Excel/Word | Data Migration Tasks |
 
 ---
 
-## 🧠 Teknik Yapı
+## 🏗️ Technical Architecture
 
-- Sayfa bazlı PDF işleme yaklaşımı  
-- Modüler ve genişletilebilir mimari  
-- Her PDF işlemi için ayrı işlem ekranları  
-- Kullanıcı dostu ve sade arayüz  
-
----
-
-## 🗄️ Kullanılan Teknolojiler
-
-- **ASP.NET Core / C#**
-- **Razor Pages (.cshtml)**
-- **PDF işleme kütüphaneleri**
-- **HTML / CSS / Bootstrap**
+- **Service-Oriented Design:** Each module is isolated for maximum reliability and ease of maintenance.
+- **Performance Optimized:** Optimized for handling heavy document streams without high memory overhead.
+- **UI/UX:** Built with Razor Pages and Bootstrap to ensure a minimal learning curve for corporate employees.
 
 ---
 
-## 📈 Proje Kazanımları
+## 🗄️ Tech Stack
 
-- PDF dosyaları üzerinde ileri seviye kontrol  
-- Dosya formatları arası dönüşüm deneyimi  
-- Gerçek kullanıcı senaryolarına uygun PDF araçları geliştirme  
-- Modüler ve sürdürülebilir bir uygulama mimarisi  
+- **Backend:** ASP.NET Core 8 / C#
+- **Logic:** Advanced PDF Processing Engines (Optimized for Corporate Use)
+- **Frontend:** Razor Pages, Bootstrap 5
+- **Security:** Local File Handling & Secure Stream Processing
 
 ---
 
-## 👩‍💻 Proje Hakkında
+## 📈 Professional Achievements (MEDAŞ)
 
-**PDFToolsApp**, PDF düzenleme ve dönüştürme ihtiyaçlarını tek bir platformda toplayan, geliştirilmeye açık bir projedir.
+- **End-to-End Delivery:** Successfully moved the project from requirement analysis to production environment.
+- **Security Compliance:** Met corporate security standards for document handling.
+- **Problem Solving:** Solved the "third-party data leakage" risk by building a secure, internal alternative.
+
+---
+
+## 👩‍💻 Developer
+
+**Esra Tosun** *Software Engineer | Developed during professional engagement at MEDAŞ*
