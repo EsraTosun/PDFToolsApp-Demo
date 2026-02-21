@@ -65,4 +65,4 @@ Developed as a professional solution for **MEDAŞ (Meram Electricity Distributio
 
 ## 👩‍💻 Developer
 
-**Esra Tosun** *Software Engineer | Developed during professional engagement at MEDAŞ*
+**Esra Tosun** *Software Engineer*
